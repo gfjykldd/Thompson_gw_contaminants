@@ -1,0 +1,27 @@
+Annotation for dataset for Thompson et al. "Groundwater discharges as a source of phytoestrogens and other agriculturally derived contaminants to streams" (submitted to Science of the Total Environment)
+
+[Abstract]
+The dataset contains concentrations for shallow groundwater and surface water samples collected from three rivers in the Chesapeake Bay Watershed, USA. Samples were collected on eight occasions from April through September 2017. Groundwater samples were collected from streambed piezometers in areas of known groundwater discharge entering surface water. Surface water samples used U.S. Geological Survey equal width interval sampling techniques.
+
+
+[Dataset Organization]
+There are four .xlsx files:
++Thom_2020_tot_estrogen.xlsx: total estrogenicity results for shallow groundwater spanning 2016-2017
++Thom_2020_SH4434_Hormone.xlsx: steroid hormones, sterols and bisphenyl A concentrations for shallow groundwater samples collected in 2017
++Thom_2020_SH2437_Pesticides.xlsx: pesticide and pesticide degredate concentrations in shallow groundwater and surface water samples collected in 2017
++Thom_2020_Phytoestrogens.xlsx: phytoestrogen concentrations for shallow groundwater and surface water collected in 2017
+
+One .R file:
+The Model.R file contains an example of the hierarchical Bayesian censored regression model fit using the R package jagsUI.
+
+  
+  -Each file contains an “Explanation” worksheet defining the analysis, and columns in all following sheets. 
+
+  -All details on sampling, analytical methods and data evaluation are given in the methods section of Thompson et al., 2020. 
+
+
+
+
+Questions: tjthompson42@gmail.com
+
+
